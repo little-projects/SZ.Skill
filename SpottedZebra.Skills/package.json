@@ -1,0 +1,37 @@
+{
+  "name": "SZ",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "mocha test/**/**spec.ts --require ts-node/register",
+    "lint": "eslint **/**/**.ts --fix"
+  },
+  "dependencies": {
+    "@graphql-mesh/graphql": "^0.96.0",
+    "faker": "^6.6.6",
+    "graphql": "16.8.1",
+    "graphql-request": "6.1.0",
+    "mocha-logger": "^1.0.8"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "@graphql-codegen/cli": "5.0.0",
+    "@types/chai": "^4.3.9",
+    "@types/mocha": "^10.0.3",
+    "@types/node": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "chai": "^4.3.10",
+    "eslint": "^8.52.0",
+    "eslint-config-standard-with-typescript": "^39.1.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-mocha": "^10.2.0",
+    "eslint-plugin-n": "^16.2.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-strict-null-checks": "^0.1.2",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "keywords": []
+}
